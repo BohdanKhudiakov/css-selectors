@@ -1,0 +1,88 @@
+* {
+    transition: all .1s ease-in;
+}
+header {
+    background-color: #4A4F56;
+    color: #EB7E7F;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+}
+h1 {
+    width: 100%;
+    margin-bottom: 8px;
+}
+body {
+    background-color: #3B3F45;
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+}
+main {
+    max-width: 500px;
+    margin: auto;
+}
+section {
+    cursor: pointer;
+}
+li:nth-of-type(even) {
+    background-color: #AAA4AE;
+}
+li {
+    background-color: #7A7593;
+    color: white;
+    padding: 5px;
+    /*width: 715px;*/
+    margin-left: -40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+label:active {
+    color: red;
+}
+ul{
+    list-style: none;
+}
+li,
+input,
+label {
+    cursor: pointer;
+}
+li:hover {
+    background-color: #625E77;
+    border-block: 2px solid white;
+}
+input[type=checkbox]:checked + label.checkbox {
+    text-decoration: line-through;
+}
+.bonappetit {
+    background-color: #4A4F56;
+    color: #EB7E7F;
+    max-width: 500px;
+    text-align: center;
+}
+p {
+    padding: 10px 0px;
+}
+header > p {
+    padding: 0px;
+    margin: 8px 0px;
+}
+[for="pickles"]::after {
+    content: "(for the next lessons about CSS)";
+    font-size: .6em;
+}
+[for="apples"]::after {
+    content: "(for more CSS manipulations)";
+    font-size: .6em;
+}
+[for="oranges"]::after {
+    content: "(because they are awesome)";
+    font-size: .6em;
+}
+[for="plates"]::after {
+    content: "(hm... they always disappear)";
+    font-size: .6em;
+}
+[for="bottle"]::after {
+    content: "(for my friends)";
+    font-size: .6em;
+}
